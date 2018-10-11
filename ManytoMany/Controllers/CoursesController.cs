@@ -158,8 +158,7 @@ namespace ManytoMany.Controllers
                                 db.StudentCourse.Add(new StudentCourse() { CourseId = course.CourseId, StudentId = item.Id });
 
                             }
-                        
-                       
+                                          
 
                     }
                     else

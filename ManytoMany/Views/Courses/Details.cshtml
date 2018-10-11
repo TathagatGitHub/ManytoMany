@@ -28,9 +28,9 @@
             {
                 if (item.Checked)
                 {
-                    <div>@item.Name</div>
+                <div>    @Html.ActionLink(item.Name, "Details","Students", new { id = item.Id },null)  </div>
                 }
-            }
+             }
         </dd>
 
     </dl>
